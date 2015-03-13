@@ -15,11 +15,11 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Default configuration
-        self.markColor = [UIColor colorWithRed:106/255.0 green:106/255.0 blue:124/255.0 alpha:0.7];
+//        self.markColor = [UIColor colorWithRed:106/255.0 green:106/255.0 blue:124/255.0 alpha:0.7];
         self.markPositions = @[@10,@20,@30,@40,@50,@60,@70,@80,@90,@100];
-        self.markWidth = 1.0;
-        self.selectedBarColor = [UIColor colorWithRed:179/255.0 green:179/255.0 blue:193/255.0 alpha:0.8];
-        self.unselectedBarColor = [UIColor colorWithRed:55/255.0 green:55/255.0 blue:94/255.0 alpha:0.8];
+//        self.markWidth = 1.0;
+//        self.selectedBarColor = [UIColor colorWithRed:179/255.0 green:179/255.0 blue:193/255.0 alpha:0.8];
+//        self.unselectedBarColor = [UIColor colorWithRed:55/255.0 green:55/255.0 blue:94/255.0 alpha:0.8];
 
     }
     return self;
@@ -30,11 +30,11 @@
     self = [super initWithCoder:aDecoder];
     if (self) {
         // Default configuration
-        self.markColor = [UIColor colorWithRed:106/255.0 green:106/255.0 blue:124/255.0 alpha:0.7];
+//        self.markColor = [UIColor colorWithRed:106/255.0 green:106/255.0 blue:124/255.0 alpha:0.7];
         self.markPositions = @[@10,@20,@30,@40,@50,@60,@70,@80,@90,@100];
-        self.markWidth = 1.0;
-        self.selectedBarColor = [UIColor colorWithRed:179/255.0 green:179/255.0 blue:193/255.0 alpha:0.8];
-        self.unselectedBarColor = [UIColor colorWithRed:55/255.0 green:55/255.0 blue:94/255.0 alpha:0.8];
+//        self.markWidth = 1.0;
+//        self.selectedBarColor = [UIColor colorWithRed:179/255.0 green:179/255.0 blue:193/255.0 alpha:0.8];
+//        self.unselectedBarColor = [UIColor colorWithRed:55/255.0 green:55/255.0 blue:94/255.0 alpha:0.8];
     }
     return self;
 }

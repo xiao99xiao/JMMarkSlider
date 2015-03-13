@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface JMMarkSlider : UISlider
-@property (nonatomic) UIColor *markColor;
-@property (nonatomic) CGFloat markWidth;
+@property (nonatomic) IBInspectable UIColor *markColor;
+@property (nonatomic) IBInspectable CGFloat markWidth;
 @property (nonatomic) NSArray *markPositions;
-@property (nonatomic) UIColor *selectedBarColor;
-@property (nonatomic) UIColor *unselectedBarColor;
-@property (nonatomic) UIImage *handlerImage;
-@property (nonatomic) UIColor *handlerColor;
+@property (nonatomic) IBInspectable UIColor *selectedBarColor;
+@property (nonatomic) IBInspectable UIColor *unselectedBarColor;
+@property (nonatomic) IBInspectable UIImage *handlerImage;
+@property (nonatomic) IBInspectable UIColor *handlerColor;
 @end
